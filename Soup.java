@@ -29,19 +29,22 @@ public class Soup {
 
     //adds a word to the pool of letters known as "letters"
     public void add(String word){
-
+        letters += word;
     }
 
 
     //Use Math.random() to get a random character from the letters string and return it.
     public char randomLetter(){
-        return 'a';
+        int randChar = (int)(Math.random() * letters.length());
+        return letters.charAt(randChar);
     }
 
 
     //returns the letters currently stored with the company name placed directly in the center of all
     //the letters
     public String companyCentered(){
+        int letHalfOneNum = letters.length() / 2;
+        String letOne = letters.substring(0, letHalfOneNum + 1);
         return "";
     }
 
