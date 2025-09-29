@@ -1,6 +1,6 @@
 //Name: Attila Juhasz
 //Date: 09/29/25
-//Description: This program will do a bunch of stuff with the letters and company strings to hide secret messages/
+//Description: This program will do a bunch of stuff with the letters and company strings to hide secret messages.
 
 
 
